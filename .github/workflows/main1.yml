@@ -41,10 +41,10 @@ jobs:
         uses: codescan-io/codescan-scanner-action@cd9694sarif1
         with:
           scanChangedFilesOnly: true
-          organization: va-github-actions
-          projectKey: sep-23
-          codeScanUrl: https://preview.codescan.io/
-          login: squ_bb693d11c55bd32bd9d9d518884516edbf29f680
+          organization: test-perf
+          projectKey: profiles-25-nosarif
+          codeScanUrl: https://perf.codescan.io/
+          login: squ_54a611313c8e294e75363ab8f4087a6e20902f8e0
 
           # SARIF generation disabled
           # generateSarifFile: true
@@ -57,10 +57,10 @@ jobs:
         uses: codescan-io/codescan-scanner-action@cd9694sarif1
         with:
           scanChangedFilesOnly: true
-          organization: va-github-actions
-          projectKey: sep-23
-          codeScanUrl: https://preview.codescan.io/
-          login: squ_bb693d11c55bd32bd9d9d518884516edbf29f680
+          organization: test-perf
+          projectKey: profiles-25-nosarif
+          codeScanUrl: https://perf.codescan.io/
+          login: squ_54a611313c8e294e75363ab8f4087a6e20902f8e
 
           # SARIF generation disabled
           # generateSarifFile: true
