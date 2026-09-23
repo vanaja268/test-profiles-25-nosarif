@@ -44,8 +44,7 @@ jobs:
           organization: test-perf
           projectKey: profiles-25-nosarif
           codeScanUrl: https://perf.codescan.io/
-          login: squ_54a611313c8e294e75363ab8f4087a6e20902f8e0
-
+          login: squ_d05ff7acb841ede62485bc3ae24259c4d9d9d773
           # SARIF generation disabled
           # generateSarifFile: true
 
@@ -60,7 +59,7 @@ jobs:
           organization: test-perf
           projectKey: profiles-25-nosarif
           codeScanUrl: https://perf.codescan.io/
-          login: squ_54a611313c8e294e75363ab8f4087a6e20902f8e
+          login: squ_d05ff7acb841ede62485bc3ae24259c4d9d9d773
 
           # SARIF generation disabled
           # generateSarifFile: true
